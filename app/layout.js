@@ -9,8 +9,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang='es'>
       <body>
-        <main className='grid min-h-screen grid-rows-[60px,1fr,60px] gap-4 max-w-screen-lg m-auto px-4'>
-          <nav className='flex items-center text-2xl'>
+        <main className='grid min-h-screen grid-rows-[60px,1fr,60px] gap-4  m-auto px-4'>
+          <nav className='flex items-center text-2xl justify-center'>
             {' '}
             📚 Listado de libros
           </nav>
